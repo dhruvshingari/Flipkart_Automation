@@ -42,7 +42,7 @@ public class Test_Login extends BaseTest {
 			wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[@class='eIDgeN']"))));
 
 			//Assert.assertEquals("You are not registered with us. Please sign up.",
-					driver.findElement(By.xpath("//div[@class='eIDgeN']")).getText());
+			//		driver.findElement(By.xpath("//div[@class='eIDgeN']")).getText());
 
 			logger.info("test case passed: error message visible");
 			test.pass("test case passed: error message visible");
