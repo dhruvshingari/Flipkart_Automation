@@ -9,7 +9,7 @@ pipeline{
                     $class:'GitSCM',
                     branches:[[name: '*/main']],
                     userRemoteConfigs:[[
-                            url:'https://github.com/dhruvshingari/.git'
+                            url:'https://github.com/dhruvshingari/Flipkart_Automation.git'
                         ]]
                     
                     ]
