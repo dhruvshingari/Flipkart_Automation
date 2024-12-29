@@ -13,8 +13,8 @@ public class CartPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	@FindBy(xpath="QqFHMw aEsfVh _7Pd1Fp")
+
+	@FindBy(xpath = "QqFHMw aEsfVh _7Pd1Fp")
 	private WebElement LoginButton;
-	
+
 }

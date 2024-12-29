@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -19,7 +18,7 @@ import com.nagarro.ExitTest.utility.SeleniumHelper;
 
 public class Test_Product extends BaseTest {
 
-	@Test
+	@Test(priority = 0, enabled = true)
 	public void sortProductByPriceLowToHigh() {
 
 		logger.info("Starting test case: sortProductByPriceLowToHigh");
@@ -59,12 +58,12 @@ public class Test_Product extends BaseTest {
 
 		} catch (Exception e) {
 			test.fail("Test case failed: Product not sorted by price");
-			logger.info("Test case failed: Product not sorted by price", e);
+			logger.error("Test case failed: Product not sorted by price", e);
 
 		}
 	}
 
-	@Test
+	@Test(priority = 1, enabled = true)
 	public void verify_addToWishlistRequiresLogin() {
 
 		test = extentReports.createTest("Starting test case: addToCart");
@@ -91,11 +90,12 @@ public class Test_Product extends BaseTest {
 			logger.info("Test case passes: addToWishlistRequiresLogin");
 		} catch (Exception e) {
 			test.fail("Test case failed: addToWishlistRequiresLogin");
-			logger.info("Test case failed: addToWishlistRequiresLogin", e);
+			logger.error("Test case failed: addToWishlistRequiresLogin", e);
 
 		}
 	}
-	@Test
+
+	@Test(priority = 2, enabled = true)
 	public void addToCart() {
 		logger.info("Starting test case: addToCart");
 		test = extentReports.createTest("Starting test case: addToCart");
@@ -135,7 +135,7 @@ public class Test_Product extends BaseTest {
 			logger.info("Test case passes: Product added to cart");
 		} catch (Exception e) {
 			test.fail("Test case failed: Product not added to cart");
-			logger.info("Test case failed: Product not added to cart", e);
+			logger.error("Test case failed: Product not added to cart", e);
 		}
 	}
 }

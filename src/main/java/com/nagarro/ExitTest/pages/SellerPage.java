@@ -7,14 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.nagarro.ExitTest.utility.SeleniumHelper;
 
-
 public class SellerPage {
-
-	@FindBy(xpath = "//img[contains(@class,'styles__HeaderImage-sc-155ljwi-1')]")
-	private WebElement flipkartsellerlogo;
-	
-	@FindBy(xpath = "//button[contains(@class,'jSCZCD')]")
-	private WebElement startsellingbutton;
 
 	WebDriver driver;
 
@@ -22,16 +15,23 @@ public class SellerPage {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
-	
+
+	@FindBy(xpath = "//img[contains(@class,'styles__HeaderImage-sc-155ljwi-1')]")
+	private WebElement flipkartsellerlogo;
+
+	@FindBy(xpath = "//button[contains(@class,'jSCZCD')]")
+	private WebElement startsellingbutton;
+
 	public void sellerLogo() {
 		SeleniumHelper.waitForElementToBeVisible(driver, flipkartsellerlogo);
 		flipkartsellerlogo.click();
 	}
-	
+
 	public void startSellingButton() {
-		 startsellingbutton.click();;
+		startsellingbutton.click();
+		;
 	}
-	
+
 	public void goToSellerDashboard() {
 		startsellingbutton.click();
 	}

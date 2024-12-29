@@ -8,17 +8,17 @@ import org.openqa.selenium.support.PageFactory;
 import com.nagarro.ExitTest.utility.SeleniumHelper;
 
 public class AppliancesPage {
-	
-	@FindBy(xpath = "//h1[@class = '_0FYq1K']")
-	private WebElement appliancespageheading;
-	
+
 	private WebDriver driver;
-	
+
 	public AppliancesPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		this.driver =driver;
+		this.driver = driver;
 	}
-	
+
+	@FindBy(xpath = "//h1[@class = '_0FYq1K']")
+	private WebElement appliancespageheading;
+
 	public WebElement appliancesPageHeading() {
 		SeleniumHelper.waitForElementToBeVisible(driver, appliancespageheading);
 		return appliancespageheading;

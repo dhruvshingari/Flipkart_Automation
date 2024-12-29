@@ -1,0 +1,9 @@
+com\nagarro\ExitTest\Tests\Test_GroceryPage.class
+com\nagarro\ExitTest\Tests\Test_SupportPage.class
+com\nagarro\ExitTest\Tests\Test_Product.class
+com\nagarro\ExitTest\Tests\Test_FlightsPage.class
+com\nagarro\ExitTest\Tests\Test_Home.class
+com\nagarro\ExitTest\Tests\Test_Login.class
+com\nagarro\ExitTest\Tests\Test_GroupCompanies.class
+com\nagarro\ExitTest\AppTest.class
+com\nagarro\ExitTest\Tests\Test_SellerPage.class

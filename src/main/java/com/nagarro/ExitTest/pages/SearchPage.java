@@ -25,57 +25,53 @@ public class SearchPage {
 
 	@FindBy(className = "_75nlfW")
 	private List<WebElement> productsList;
-	
+
 	@FindBy(xpath = "//span[@class='BUOuZu']//span")
 	private WebElement searchfor;
-	
+
 	@FindBy(xpath = "//div[@class = 'sHCOk2']/div[3]")
 	private WebElement buttonpricelowtohigh;
-	
+
 	@FindBy(xpath = "(//div[@class = 'DOjaWF gdgoEp']//div[@class='cPHDOP col-12-12'])[1]/div/div[1]")
 	private WebElement clickfirstproduct;
-	
+
 	@FindBy(xpath = "(//div[@class = '+7E521'])[1]")
 	private WebElement wishlistbutton;
-	
+
 	@FindBy(xpath = "//div[@class='DOjaWF gdgoEp']//div[@class = 'hl05eU']/div[contains(@class, 'Nx9bqj')]")
 	private List<WebElement> productprice;
-	
+
 	@FindBy(xpath = "//button[@class = 'QqFHMw twnTnD _7Pd1Fp']")
 	private WebElement requestOTPbutton;
-	
+
 	@FindBy(xpath = "//button[@class = 'QqFHMw NEEcDr']")
 	private WebElement crossbutton;
 
 	public int productsListSize() {
 		return productsList.size();
 	}
-	
+
 	public void clickFirstProduct() {
 		driver.getWindowHandle();
-		
+
 		SeleniumHelper.waitForElementToBeClickable(driver, clickfirstproduct);
 		clickfirstproduct.click();
-		
-		// Wait for the new tab to open
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
-        
-        // Get all window handles
-        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        
-        // Switch to the new tab
-        driver.switchTo().window(tabs.get(1));
-        
-        
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+
+		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+
+		driver.switchTo().window(tabs.get(1));
+
 	}
-	
+
 	public void clickLowToHighPriceButton() {
 		SeleniumHelper.waitForElementToBeClickable(driver, buttonpricelowtohigh);
 		buttonpricelowtohigh.click();
 	}
-	
-	public List<Integer> sortProductsPriceList(){
+
+	public List<Integer> sortProductsPriceList() {
 		boolean priceFetched = false;
 
 		for (int attempts = 0; attempts < 3; attempts++) {
@@ -84,12 +80,12 @@ public class SearchPage {
 				SeleniumHelper.waitForAllElementsToBeVisible(driver, productprice);
 
 				List<Integer> list_product_price = new ArrayList<Integer>();
-				for(WebElement ele: productprice) {
+				for (WebElement ele : productprice) {
 					list_product_price.add(Integer.valueOf(ele.getText().replaceAll("[^0-9]", "")));
 				}
-				
+
 				priceFetched = true;
-				
+
 				if (priceFetched)
 					return list_product_price;
 			} catch (StaleElementReferenceException e) {
@@ -103,17 +99,17 @@ public class SearchPage {
 		}
 		return null;
 	}
-	
+
 	public void clickWishlistButton() {
 		SeleniumHelper.waitForElementToBeClickable(driver, wishlistbutton);
 		wishlistbutton.click();
 	}
-	
+
 	public WebElement OTPButton() {
 		SeleniumHelper.waitForElementToBeVisible(driver, requestOTPbutton);
 		return requestOTPbutton;
 	}
-	
+
 	public void clickCrossButton() {
 		SeleniumHelper.waitForElementToBeClickable(driver, crossbutton);
 		crossbutton.click();

@@ -1,187 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T15:07:04 IST" name="Surefire suite" finished-at="2024-12-27T15:08:07 IST" duration-ms="62921">
+  <suite started-at="2024-12-29T13:27:34 IST" name="Surefire suite" finished-at="2024-12-29T13:30:55 IST" duration-ms="200292">
     <groups>
     </groups>
-    <test started-at="2024-12-27T15:07:04 IST" name="Surefire test" finished-at="2024-12-27T15:08:07 IST" duration-ms="62921">
-      <class name="com.nagarro.ExitTest.Tests.Test_Home">
-        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:04 IST" name="setupExtentReports" finished-at="2024-12-27T15:07:04 IST" duration-ms="262" status="PASS">
+    <test started-at="2024-12-29T13:27:34 IST" name="Surefire test" finished-at="2024-12-29T13:30:55 IST" duration-ms="200292">
+      <class name="com.nagarro.ExitTest.Tests.Test_SupportPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SupportPage@16150369]" started-at="2024-12-29T13:30:43 IST" name="setUp" finished-at="2024-12-29T13:30:50 IST" duration-ms="7094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHelpTopics()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SupportPage@16150369]" started-at="2024-12-29T13:30:50 IST" name="verifyHelpTopics" finished-at="2024-12-29T13:30:54 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpTopics -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SupportPage@16150369]" started-at="2024-12-29T13:30:54 IST" name="tearDown" finished-at="2024-12-29T13:30:55 IST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpTopics status=SUCCESS method=Test_SupportPage.verifyHelpTopics()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SupportPage@16150369] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_SupportPage -->
+      <class name="com.nagarro.ExitTest.Tests.Test_FlightsPage">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:27:34 IST" name="setupExtentReports" finished-at="2024-12-29T13:27:34 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtentReports -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:04 IST" name="setUp" finished-at="2024-12-27T15:07:10 IST" duration-ms="6035" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:27:34 IST" name="setUp" finished-at="2024-12-29T13:27:43 IST" duration-ms="8541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_navigateToAppliancesPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:10 IST" name="test_navigateToAppliancesPage" finished-at="2024-12-27T15:07:12 IST" duration-ms="1539" status="PASS">
+        <test-method signature="test_searchOneWayFlight()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:27:43 IST" name="test_searchOneWayFlight" finished-at="2024-12-29T13:27:51 IST" duration-ms="7821" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_navigateToAppliancesPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:12 IST" name="tearDown" finished-at="2024-12-27T15:07:12 IST" duration-ms="278" status="PASS">
+        </test-method> <!-- test_searchOneWayFlight -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:27:51 IST" name="tearDown" finished-at="2024-12-29T13:27:51 IST" duration-ms="419" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_navigateToAppliancesPage status=SUCCESS method=Test_Home.test_navigateToAppliancesPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d] output={null}]]]>
+                <![CDATA[[TestResult name=test_searchOneWayFlight status=SUCCESS method=Test_FlightsPage.test_searchOneWayFlight()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:12 IST" name="setUp" finished-at="2024-12-27T15:07:16 IST" duration-ms="3882" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:27:51 IST" name="setUp" finished-at="2024-12-29T13:27:58 IST" duration-ms="6744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_navigateToCartPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:16 IST" name="test_navigateToCartPage" finished-at="2024-12-27T15:07:17 IST" duration-ms="1427" status="PASS">
+        <test-method signature="test_searchRoundtripFlight()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:27:58 IST" name="test_searchRoundtripFlight" finished-at="2024-12-29T13:28:09 IST" duration-ms="10776" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_navigateToCartPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:17 IST" name="tearDown" finished-at="2024-12-27T15:07:18 IST" duration-ms="251" status="PASS">
+        </test-method> <!-- test_searchRoundtripFlight -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:28:09 IST" name="tearDown" finished-at="2024-12-29T13:28:09 IST" duration-ms="308" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_navigateToCartPage status=SUCCESS method=Test_Home.test_navigateToCartPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d] output={null}]]]>
+                <![CDATA[[TestResult name=test_searchRoundtripFlight status=SUCCESS method=Test_FlightsPage.test_searchRoundtripFlight()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:18 IST" name="setUp" finished-at="2024-12-27T15:07:22 IST" duration-ms="4371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test_navigateToFlightPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:22 IST" name="test_navigateToFlightPage" finished-at="2024-12-27T15:07:24 IST" duration-ms="1783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_navigateToFlightPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:24 IST" name="tearDown" finished-at="2024-12-27T15:07:24 IST" duration-ms="278" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_navigateToFlightPage status=SUCCESS method=Test_Home.test_navigateToFlightPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:24 IST" name="setUp" finished-at="2024-12-27T15:07:28 IST" duration-ms="3719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test_navigateToSellerPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:28 IST" name="test_navigateToSellerPage" finished-at="2024-12-27T15:07:32 IST" duration-ms="4565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_navigateToSellerPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:32 IST" name="tearDown" finished-at="2024-12-27T15:07:33 IST" duration-ms="556" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_navigateToSellerPage status=SUCCESS method=Test_Home.test_navigateToSellerPage()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:33 IST" name="setUp" finished-at="2024-12-27T15:07:37 IST" duration-ms="3774" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test_search()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:37 IST" name="test_search" finished-at="2024-12-27T15:07:39 IST" duration-ms="2185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_search -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:39 IST" name="tearDown" finished-at="2024-12-27T15:07:39 IST" duration-ms="226" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test_search status=SUCCESS method=Test_Home.test_search()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:39 IST" name="setUp" finished-at="2024-12-27T15:07:43 IST" duration-ms="4077" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageIsVisible()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:43 IST" name="verifyHomePageIsVisible" finished-at="2024-12-27T15:07:43 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:07:43 IST" name="tearDown" finished-at="2024-12-27T15:07:43 IST" duration-ms="245" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyHomePageIsVisible status=SUCCESS method=Test_Home.verifyHomePageIsVisible()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@f1da57d]" started-at="2024-12-27T15:08:07 IST" name="tearDownExtentReports" finished-at="2024-12-27T15:08:07 IST" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_FlightsPage@25df00a0]" started-at="2024-12-29T13:30:55 IST" name="tearDownExtentReports" finished-at="2024-12-29T13:30:56 IST" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
-      </class> <!-- com.nagarro.ExitTest.Tests.Test_Home -->
-      <class name="com.nagarro.ExitTest.Tests.Test_Product">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:07:43 IST" name="setUp" finished-at="2024-12-27T15:07:47 IST" duration-ms="3581" status="PASS">
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_FlightsPage -->
+      <class name="com.nagarro.ExitTest.Tests.Test_Home">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:43 IST" name="setUp" finished-at="2024-12-29T13:28:47 IST" duration-ms="4223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:07:47 IST" name="addToCart" finished-at="2024-12-27T15:07:53 IST" duration-ms="5640" status="PASS">
+        <test-method signature="test_HomePageIsVisible()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:47 IST" name="test_HomePageIsVisible" finished-at="2024-12-29T13:28:47 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:07:53 IST" name="tearDown" finished-at="2024-12-27T15:07:53 IST" duration-ms="262" status="PASS">
+        </test-method> <!-- test_HomePageIsVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:47 IST" name="tearDown" finished-at="2024-12-29T13:28:47 IST" duration-ms="202" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addToCart status=SUCCESS method=Test_Product.addToCart()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116] output={null}]]]>
+                <![CDATA[[TestResult name=test_HomePageIsVisible status=SUCCESS method=Test_Home.test_HomePageIsVisible()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:07:53 IST" name="setUp" finished-at="2024-12-27T15:07:56 IST" duration-ms="3398" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:48 IST" name="setUp" finished-at="2024-12-29T13:28:53 IST" duration-ms="4783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortProductByPriceLowToHigh()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:07:56 IST" name="sortProductByPriceLowToHigh" finished-at="2024-12-27T15:08:00 IST" duration-ms="3267" status="PASS">
+        <test-method signature="test_search(java.lang.String)[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:53 IST" name="test_search" data-provider="searchData" finished-at="2024-12-29T13:28:56 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="3121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pixel 9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:56 IST" name="tearDown" finished-at="2024-12-29T13:28:56 IST" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_search status=SUCCESS method=Test_Home.test_search(java.lang.String)[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:28:56 IST" name="setUp" finished-at="2024-12-29T13:29:02 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_search(java.lang.String)[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:02 IST" name="test_search" data-provider="searchData" finished-at="2024-12-29T13:29:06 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="4180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Echo dot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:06 IST" name="tearDown" finished-at="2024-12-29T13:29:06 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_search status=SUCCESS method=Test_Home.test_search(java.lang.String)[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:06 IST" name="setUp" finished-at="2024-12-29T13:29:11 IST" duration-ms="4832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_navigateToCartPage()[pri:2, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:11 IST" name="test_navigateToCartPage" finished-at="2024-12-29T13:29:12 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigateToCartPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:12 IST" name="tearDown" finished-at="2024-12-29T13:29:13 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_navigateToCartPage status=SUCCESS method=Test_Home.test_navigateToCartPage()[pri:2, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:13 IST" name="setUp" finished-at="2024-12-29T13:29:19 IST" duration-ms="6441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_navigateToSellerPage()[pri:3, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:19 IST" name="test_navigateToSellerPage" finished-at="2024-12-29T13:29:24 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigateToSellerPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:24 IST" name="tearDown" finished-at="2024-12-29T13:29:27 IST" duration-ms="2232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_navigateToSellerPage status=SUCCESS method=Test_Home.test_navigateToSellerPage()[pri:3, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:27 IST" name="setUp" finished-at="2024-12-29T13:29:32 IST" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_navigateToAppliancesPage()[pri:4, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:32 IST" name="test_navigateToAppliancesPage" finished-at="2024-12-29T13:29:34 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigateToAppliancesPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:34 IST" name="tearDown" finished-at="2024-12-29T13:29:34 IST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_navigateToAppliancesPage status=SUCCESS method=Test_Home.test_navigateToAppliancesPage()[pri:4, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:34 IST" name="setUp" finished-at="2024-12-29T13:29:39 IST" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_navigateToFlightPage()[pri:5, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:39 IST" name="test_navigateToFlightPage" finished-at="2024-12-29T13:29:42 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigateToFlightPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:42 IST" name="tearDown" finished-at="2024-12-29T13:29:42 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_navigateToFlightPage status=SUCCESS method=Test_Home.test_navigateToFlightPage()[pri:5, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:42 IST" name="setUp" finished-at="2024-12-29T13:29:47 IST" duration-ms="4923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_navigateToTermsAndConditionsPage()[pri:6, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:47 IST" name="test_navigateToTermsAndConditionsPage" finished-at="2024-12-29T13:29:49 IST" depends-on-methods="com.nagarro.ExitTest.Tests.Test_Home.test_HomePageIsVisible" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigateToTermsAndConditionsPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625]" started-at="2024-12-29T13:29:49 IST" name="tearDown" finished-at="2024-12-29T13:29:49 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_navigateToTermsAndConditionsPage status=SUCCESS method=Test_Home.test_navigateToTermsAndConditionsPage()[pri:6, instance:com.nagarro.ExitTest.Tests.Test_Home@aba625] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_Home -->
+      <class name="com.nagarro.ExitTest.Tests.Test_GroupCompanies">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:19 IST" name="setUp" finished-at="2024-12-29T13:28:23 IST" duration-ms="4106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_first_myntra()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:23 IST" name="test_first_myntra" finished-at="2024-12-29T13:28:27 IST" duration-ms="4215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_first_myntra -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:27 IST" name="tearDown" finished-at="2024-12-29T13:28:28 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_first_myntra status=SUCCESS method=Test_GroupCompanies.test_first_myntra()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:28 IST" name="setUp" finished-at="2024-12-29T13:28:32 IST" duration-ms="4371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_second_cleartrip()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:32 IST" name="test_second_cleartrip" finished-at="2024-12-29T13:28:36 IST" duration-ms="3954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_second_cleartrip -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:36 IST" name="tearDown" finished-at="2024-12-29T13:28:36 IST" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_second_cleartrip status=SUCCESS method=Test_GroupCompanies.test_second_cleartrip()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:36 IST" name="setUp" finished-at="2024-12-29T13:28:41 IST" duration-ms="4214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_third_shopsy()[pri:2, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:41 IST" name="test_third_shopsy" finished-at="2024-12-29T13:28:43 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_third_shopsy -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8]" started-at="2024-12-29T13:28:43 IST" name="tearDown" finished-at="2024-12-29T13:28:43 IST" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_third_shopsy status=SUCCESS method=Test_GroupCompanies.test_third_shopsy()[pri:2, instance:com.nagarro.ExitTest.Tests.Test_GroupCompanies@491b9b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_GroupCompanies -->
+      <class name="com.nagarro.ExitTest.Tests.Test_GroceryPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroceryPage@79207381]" started-at="2024-12-29T13:28:09 IST" name="setUp" finished-at="2024-12-29T13:28:15 IST" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_searchGroceryItem()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroceryPage@79207381]" started-at="2024-12-29T13:28:15 IST" name="test_searchGroceryItem" finished-at="2024-12-29T13:28:19 IST" duration-ms="4201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_searchGroceryItem -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroceryPage@79207381]" started-at="2024-12-29T13:28:19 IST" name="tearDown" finished-at="2024-12-29T13:28:19 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_searchGroceryItem status=SUCCESS method=Test_GroceryPage.test_searchGroceryItem()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_GroceryPage@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_GroceryPage -->
+      <class name="com.nagarro.ExitTest.Tests.Test_Product">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:29:54 IST" name="setUp" finished-at="2024-12-29T13:29:59 IST" duration-ms="4698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortProductByPriceLowToHigh()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:29:59 IST" name="sortProductByPriceLowToHigh" finished-at="2024-12-29T13:30:03 IST" duration-ms="4540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortProductByPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:08:00 IST" name="tearDown" finished-at="2024-12-27T15:08:00 IST" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:03 IST" name="tearDown" finished-at="2024-12-29T13:30:04 IST" duration-ms="354" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortProductByPriceLowToHigh status=SUCCESS method=Test_Product.sortProductByPriceLowToHigh()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116] output={null}]]]>
+                <![CDATA[[TestResult name=sortProductByPriceLowToHigh status=SUCCESS method=Test_Product.sortProductByPriceLowToHigh()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:08:00 IST" name="setUp" finished-at="2024-12-27T15:08:04 IST" duration-ms="4549" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:04 IST" name="setUp" finished-at="2024-12-29T13:30:12 IST" duration-ms="7709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_addToWishlistRequiresLogin()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:08:04 IST" name="verify_addToWishlistRequiresLogin" finished-at="2024-12-27T15:08:07 IST" duration-ms="2455" status="PASS">
+        <test-method signature="verify_addToWishlistRequiresLogin()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:12 IST" name="verify_addToWishlistRequiresLogin" finished-at="2024-12-29T13:30:15 IST" duration-ms="3569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_addToWishlistRequiresLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116]" started-at="2024-12-27T15:08:07 IST" name="tearDown" finished-at="2024-12-27T15:08:07 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:15 IST" name="tearDown" finished-at="2024-12-29T13:30:16 IST" duration-ms="393" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_addToWishlistRequiresLogin status=SUCCESS method=Test_Product.verify_addToWishlistRequiresLogin()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@38467116] output={null}]]]>
+                <![CDATA[[TestResult name=verify_addToWishlistRequiresLogin status=SUCCESS method=Test_Product.verify_addToWishlistRequiresLogin()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:16 IST" name="setUp" finished-at="2024-12-29T13:30:20 IST" duration-ms="4869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToCart()[pri:2, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:20 IST" name="addToCart" finished-at="2024-12-29T13:30:27 IST" duration-ms="6488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f]" started-at="2024-12-29T13:30:27 IST" name="tearDown" finished-at="2024-12-29T13:30:27 IST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=Test_Product.addToCart()[pri:2, instance:com.nagarro.ExitTest.Tests.Test_Product@5a5a729f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -189,6 +382,48 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nagarro.ExitTest.Tests.Test_Product -->
+      <class name="com.nagarro.ExitTest.Tests.Test_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Login@97e93f1]" started-at="2024-12-29T13:29:49 IST" name="setUp" finished-at="2024-12-29T13:29:52 IST" duration-ms="3755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_invalidlogin()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Login@97e93f1]" started-at="2024-12-29T13:29:52 IST" name="test_invalidlogin" finished-at="2024-12-29T13:29:54 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invalidlogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_Login@97e93f1]" started-at="2024-12-29T13:29:54 IST" name="tearDown" finished-at="2024-12-29T13:29:54 IST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_invalidlogin status=SUCCESS method=Test_Login.test_invalidlogin()[pri:1, instance:com.nagarro.ExitTest.Tests.Test_Login@97e93f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_Login -->
+      <class name="com.nagarro.ExitTest.Tests.Test_SellerPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SellerPage@4b520ea8]" started-at="2024-12-29T13:30:27 IST" name="setUp" finished-at="2024-12-29T13:30:33 IST" duration-ms="5678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_navigateToSellerDashboard()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SellerPage@4b520ea8]" started-at="2024-12-29T13:30:33 IST" name="test_navigateToSellerDashboard" finished-at="2024-12-29T13:30:43 IST" duration-ms="9661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navigateToSellerDashboard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SellerPage@4b520ea8]" started-at="2024-12-29T13:30:43 IST" name="tearDown" finished-at="2024-12-29T13:30:43 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_navigateToSellerDashboard status=SUCCESS method=Test_SellerPage.test_navigateToSellerDashboard()[pri:0, instance:com.nagarro.ExitTest.Tests.Test_SellerPage@4b520ea8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_SellerPage -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

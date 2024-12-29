@@ -31,16 +31,21 @@ public class SeleniumHelper {
 		wait.until(ExpectedConditions.textToBePresentInElementValue(locator, text));
 	}
 
+	public static void waitUntilTitleContains(WebDriver driver, String title) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.titleContains(title));
+	}
+
 	public static void waitUntilTitleChanges(WebDriver driver, String title) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleIs(title));
 	}
-	
+
 	public static void presenceOfElementLocatedBy(WebDriver driver, By loc) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.presenceOfElementLocated(loc));
 	}
-	
+
 	public static void stalenessOf(WebDriver driver, WebElement ele) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.stalenessOf(ele));

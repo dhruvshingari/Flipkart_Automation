@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nagarro.ExitTest.Tests.Test_Product">
+      <class name="com.nagarro.ExitTest.Tests.Test_Home">
         <methods>
           <include name="tearDownExtentReports"/>
-          <include name="addToCart"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="setupExtentReports"/>
+          <include name="test_search"/>
         </methods>
-      </class> <!-- com.nagarro.ExitTest.Tests.Test_Product -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_Home -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

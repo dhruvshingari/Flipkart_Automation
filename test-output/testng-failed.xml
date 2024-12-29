@@ -3,16 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.nagarro.ExitTest.Tests.Test_Product">
+      <class name="com.nagarro.ExitTest.Tests.Test_Login">
         <methods>
-          <include name="sortProductByPriceLowToHigh"/>
+          <include name="test_invalidlogin"/>
           <include name="tearDownExtentReports"/>
           <include name="tearDown"/>
-          <include name="verify_addToWishlistRequiresLogin"/>
           <include name="setUp"/>
           <include name="setupExtentReports"/>
         </methods>
-      </class> <!-- com.nagarro.ExitTest.Tests.Test_Product -->
+      </class> <!-- com.nagarro.ExitTest.Tests.Test_Login -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

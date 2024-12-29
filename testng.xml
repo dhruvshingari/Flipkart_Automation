@@ -4,7 +4,13 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.nagarro.ExitTest.Tests.Test_Home"/>
+      <class name="com.nagarro.ExitTest.Tests.Test_Login"/>
       <class name="com.nagarro.ExitTest.Tests.Test_Product"/>
+      <class name="com.nagarro.ExitTest.Tests.Test_SellerPage"/>
+      <class name="com.nagarro.ExitTest.Tests.Test_GroupCompanies"/>
+      <class name="com.nagarro.ExitTest.Tests.Test_FlightsPage"/>
+      <class name="com.nagarro.ExitTest.Tests.Test_SupportPage"/>
+      <class name="com.nagarro.ExitTest.Tests.Test_GroceryPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

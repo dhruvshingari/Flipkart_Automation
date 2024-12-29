@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="64.284" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="202.574" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\test-classes;C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\classes;C:\Users\dhruvshingari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dhruvshingari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\dhruvshingari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dhruvshingari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dhruvshingari\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\dhruvshingari\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\dhruvshingari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dhruvshingari\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\dhruvshingari\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dhruvshingari\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dhruvshingari\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\dhruvshingari\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\dhruvshingari\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
+    <property name="java.class.path" value="C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\test-classes;C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\classes;C:\Users\dhruvshingari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dhruvshingari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\dhruvshingari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dhruvshingari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dhruvshingari\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\dhruvshingari\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\dhruvshingari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dhruvshingari\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\dhruvshingari\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dhruvshingari\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dhruvshingari\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\dhruvshingari\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dhruvshingari\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\dhruvshingari\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
     <property name="java.vm.vendor" value="OpenLogic"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-17.0.10.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\dhruvshingari\AppData\Local\Temp\surefire11669746359545660958\surefirebooter-20241227150703291_3.jar C:\Users\dhruvshingari\AppData\Local\Temp\surefire11669746359545660958 2024-12-27T15-07-03_106-jvmRun1 surefire-20241227150703291_1tmp surefire_0-20241227150703291_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\dhruvshingari\AppData\Local\Temp\surefire3758333025411238651\surefirebooter-20241229132733353_3.jar C:\Users\dhruvshingari\AppData\Local\Temp\surefire3758333025411238651 2024-12-29T13-27-33_204-jvmRun1 surefire-20241229132733353_1tmp surefire_0-20241229132733353_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\test-classes;C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\classes;C:\Users\dhruvshingari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dhruvshingari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\dhruvshingari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dhruvshingari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dhruvshingari\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\dhruvshingari\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\dhruvshingari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dhruvshingari\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\dhruvshingari\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dhruvshingari\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dhruvshingari\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\dhruvshingari\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\dhruvshingari\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\test-classes;C:\Users\dhruvshingari\eclipse-workspace\ExitTest\target\classes;C:\Users\dhruvshingari\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dhruvshingari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dhruvshingari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\dhruvshingari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\dhruvshingari\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\dhruvshingari\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\dhruvshingari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dhruvshingari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dhruvshingari\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\dhruvshingari\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\dhruvshingari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dhruvshingari\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\dhruvshingari\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\dhruvshingari\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dhruvshingari\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\dhruvshingari\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dhruvshingari\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\dhruvshingari\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dhruvshingari\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\dhruvshingari\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\dhruvshingari\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\dhruvshingari\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dhruvshingari\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\dhruvshingari\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dhruvshingari"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dhruvshingari\AppData\Local\Temp\surefire11669746359545660958\surefirebooter-20241227150703291_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dhruvshingari\AppData\Local\Temp\surefire3758333025411238651\surefirebooter-20241229132733353_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+7-adhoc..jdk17u"/>
@@ -59,151 +59,346 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="test_navigateToAppliancesPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="1.536">
-    <system-out><![CDATA[2024-12-27 15:07:04 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
-2024-12-27 15:07:04 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:05 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:05 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:05 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:05 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:05 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:10 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToAppliancesPage
-2024-12-27 15:07:10 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to appliances page
-2024-12-27 15:07:12 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Appliances page is visible
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="test_navigateToCartPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="1.427">
-    <system-out><![CDATA[2024-12-27 15:07:12 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
-2024-12-27 15:07:12 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:12 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:12 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:12 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:12 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:12 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:16 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateTocartPage
-2024-12-27 15:07:16 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to cart page
-2024-12-27 15:07:17 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: cart page is visible
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="test_navigateToFlightPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="1.783">
-    <system-out><![CDATA[2024-12-27 15:07:18 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
-2024-12-27 15:07:18 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:18 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:18 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:18 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:22 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToFlightPage
-2024-12-27 15:07:22 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to flight page
-2024-12-27 15:07:24 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: flights page is visible
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="test_navigateToSellerPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="4.564">
-    <system-out><![CDATA[2024-12-27 15:07:24 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
-2024-12-27 15:07:24 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:24 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:24 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:24 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:24 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:24 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:28 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToSellerPage
-2024-12-27 15:07:28 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to seller page
-2024-12-27 15:07:32 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: seller page is visible
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="test_search" classname="com.nagarro.ExitTest.Tests.Test_Home" time="2.184">
-    <system-out><![CDATA[2024-12-27 15:07:33 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
-2024-12-27 15:07:33 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:33 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:33 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:33 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:33 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:33 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:37 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: searchForAProduct
-2024-12-27 15:07:37 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - search functionality test
-2024-12-27 15:07:39 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Searched product is visible
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="verifyHomePageIsVisible" classname="com.nagarro.ExitTest.Tests.Test_Home" time="0.027">
-    <system-out><![CDATA[2024-12-27 15:07:39 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
-2024-12-27 15:07:39 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:39 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:39 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:39 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:39 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:39 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: verifyHomePageIsVisibleSuccessfully
-2024-12-27 15:07:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying if the home page is visible
-2024-12-27 15:07:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Home page is visible
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="addToCart" classname="com.nagarro.ExitTest.Tests.Test_Product" time="5.64">
-    <system-out><![CDATA[2024-12-27 15:07:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Product
-2024-12-27 15:07:43 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:43 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:43 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:43 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:47 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: addToCart
-2024-12-27 15:07:47 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for product
-2024-12-27 15:07:49 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to product page
-2024-12-27 15:07:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passes: Product added to cart
-]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
-]]></system-err>
-  </testcase>
-  <testcase name="sortProductByPriceLowToHigh" classname="com.nagarro.ExitTest.Tests.Test_Product" time="3.267">
-    <system-out><![CDATA[2024-12-27 15:07:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Product
-2024-12-27 15:07:53 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:07:53 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:07:53 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:07:53 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:07:53 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:07:53 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:07:56 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: sortProductByPriceLowToHigh
-2024-12-27 15:07:56 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for product
-2024-12-27 15:07:59 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Trying to sort product by price low to high
-2024-12-27 15:07:59 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying the result
+  <testcase name="test_searchOneWayFlight" classname="com.nagarro.ExitTest.Tests.Test_FlightsPage" time="7.821">
+    <system-out><![CDATA[2024-12-29 13:27:34 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_FlightsPage
+2024-12-29 13:27:34 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:27:35 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:27:35 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:27:35 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:27:35 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:27:35 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:27:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: OneWayFlight
+2024-12-29 13:27:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to flight page
+2024-12-29 13:27:46 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for one way flight
 Attempt 1: Caught StaleElementReferenceException. Reinitializing elements...
-2024-12-27 15:08:00 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Sorted by price low to high
+Attempt 1: Caught StaleElementReferenceException. Reinitializing elements...
+2024-12-29 13:27:51 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Desired result is visible
 ]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:07:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 29, 2024 1:27:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
-  <testcase name="verify_addToWishlistRequiresLogin" classname="com.nagarro.ExitTest.Tests.Test_Product" time="2.454">
-    <system-out><![CDATA[2024-12-27 15:08:00 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Product
-2024-12-27 15:08:00 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-2024-12-27 15:08:00 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 15:14:59 27/12/2024 IST)
-2024-12-27 15:08:00 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 02:02:45 28/12/2024 IST)
-2024-12-27 15:08:00 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
-2024-12-27 15:08:00 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
-2024-12-27 15:08:00 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
-2024-12-27 15:08:04 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: addToCart
-2024-12-27 15:08:04 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for product
-2024-12-27 15:08:07 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passes: addToWishlistRequiresLogin
+  <testcase name="test_searchRoundtripFlight" classname="com.nagarro.ExitTest.Tests.Test_FlightsPage" time="10.776">
+    <system-out><![CDATA[2024-12-29 13:27:51 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_FlightsPage
+2024-12-29 13:27:51 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:27:51 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:27:51 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:27:51 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:27:51 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:27:51 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:27:58 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: RoundTripFlight
+2024-12-29 13:27:58 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to flight page
+2024-12-29 13:28:00 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for round trip flight
+Attempt 1: Caught StaleElementReferenceException. Reinitializing elements...
+Attempt 1: Caught StaleElementReferenceException. Reinitializing elements...
+2024-12-29 13:28:09 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Desired result is visible
 ]]></system-out>
-    <system-err><![CDATA[Dec 27, 2024 3:08:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 29, 2024 1:27:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_searchGroceryItem" classname="com.nagarro.ExitTest.Tests.Test_GroceryPage" time="4.201">
+    <system-out><![CDATA[2024-12-29 13:28:09 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_GroceryPage
+2024-12-29 13:28:09 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:09 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:09 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:09 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:09 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:09 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:28:15 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: SearchGroceryItem
+2024-12-29 13:28:15 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to grocery page
+2024-12-29 13:28:17 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying Grocery page is visible or not
+2024-12-29 13:28:17 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Entering pincode 143001
+2024-12-29 13:28:17 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Searching for item:
+2024-12-29 13:28:19 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passed: Searched product chips is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:28:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_first_myntra" classname="com.nagarro.ExitTest.Tests.Test_GroupCompanies" time="4.215">
+    <system-out><![CDATA[2024-12-29 13:28:19 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_GroupCompanies
+2024-12-29 13:28:19 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:19 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:19 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:19 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:19 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:19 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:28:23 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToMyntraPage
+2024-12-29 13:28:23 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to myntra website
+2024-12-29 13:28:27 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: navigated to myntra
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:28:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_second_cleartrip" classname="com.nagarro.ExitTest.Tests.Test_GroupCompanies" time="3.954">
+    <system-out><![CDATA[2024-12-29 13:28:28 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_GroupCompanies
+2024-12-29 13:28:28 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:28 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:28 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:28 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:28 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:28 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:28:32 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToCleartripPage
+2024-12-29 13:28:32 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to cleartrip website
+2024-12-29 13:28:36 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: navigated to cleartrip
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:28:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_third_shopsy" classname="com.nagarro.ExitTest.Tests.Test_GroupCompanies" time="2.059">
+    <system-out><![CDATA[2024-12-29 13:28:36 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_GroupCompanies
+2024-12-29 13:28:36 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:36 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:36 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:36 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:28:41 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToShopsyPage
+2024-12-29 13:28:41 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to shopsy website
+2024-12-29 13:28:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: navigated to shopsy
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:28:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_HomePageIsVisible" classname="com.nagarro.ExitTest.Tests.Test_Home" time="0.042">
+    <system-out><![CDATA[2024-12-29 13:28:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:28:43 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:43 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:43 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:43 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:28:47 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: verifyHomePageIsVisibleSuccessfully
+2024-12-29 13:28:47 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying if the home page is visible
+2024-12-29 13:28:47 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Home page is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:28:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_search[Pixel 9](1)" classname="com.nagarro.ExitTest.Tests.Test_Home" time="3.121">
+    <system-out><![CDATA[2024-12-29 13:28:48 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:28:48 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:48 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:48 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:48 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:28:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: searchForAProduct
+2024-12-29 13:28:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - search functionality test
+2024-12-29 13:28:56 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Searched product is visible
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Dec 29, 2024 1:28:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_search[Echo dot](2)" classname="com.nagarro.ExitTest.Tests.Test_Home" time="4.178">
+    <system-out><![CDATA[2024-12-29 13:28:56 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:28:56 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:28:56 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:28:56 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:28:56 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:28:56 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:28:56 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:02 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: searchForAProduct
+2024-12-29 13:29:02 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - search functionality test
+2024-12-29 13:29:06 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Searched product is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:28:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_navigateToCartPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="1.513">
+    <system-out><![CDATA[2024-12-29 13:29:06 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:29:06 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:06 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:06 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:06 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:06 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:06 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:11 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateTocartPage
+2024-12-29 13:29:11 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to cart page
+2024-12-29 13:29:12 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: cart page is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_navigateToSellerPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="5.151">
+    <system-out><![CDATA[2024-12-29 13:29:13 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:29:13 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:13 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:13 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:13 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:13 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:13 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:19 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToSellerPage
+2024-12-29 13:29:19 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to seller page
+2024-12-29 13:29:24 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: seller page is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_navigateToAppliancesPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="1.336">
+    <system-out><![CDATA[2024-12-29 13:29:27 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:29:27 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:27 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:27 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:27 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:27 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:27 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:32 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToAppliancesPage
+2024-12-29 13:29:32 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to appliances page
+2024-12-29 13:29:34 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: Appliances page is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_navigateToFlightPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="3.141">
+    <system-out><![CDATA[2024-12-29 13:29:34 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:29:34 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:34 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:34 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:34 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:34 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:34 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:39 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToFlightPage
+2024-12-29 13:29:39 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to flight page
+2024-12-29 13:29:42 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test passed: flights page is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_navigateToTermsAndConditionsPage" classname="com.nagarro.ExitTest.Tests.Test_Home" time="1.281">
+    <system-out><![CDATA[2024-12-29 13:29:42 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Home
+2024-12-29 13:29:42 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:42 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:42 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:42 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:47 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToTermsAndCondtionsPage
+2024-12-29 13:29:48 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying page is displayed or not
+2024-12-29 13:29:49 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passed: Page is visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_invalidlogin" classname="com.nagarro.ExitTest.Tests.Test_Login" time="1.51">
+    <system-out><![CDATA[2024-12-29 13:29:49 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Login
+2024-12-29 13:29:49 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:49 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:49 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:49 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:49 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:49 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:52 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - starting test case: invalid login
+2024-12-29 13:29:52 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to Login page
+2024-12-29 13:29:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - entering invalid input
+2024-12-29 13:29:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - test case passed: error message visible
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="sortProductByPriceLowToHigh" classname="com.nagarro.ExitTest.Tests.Test_Product" time="4.551">
+    <system-out><![CDATA[2024-12-29 13:29:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Product
+2024-12-29 13:29:54 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:29:54 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:29:54 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:29:54 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:29:54 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:29:54 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:29:59 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: sortProductByPriceLowToHigh
+2024-12-29 13:29:59 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for product
+2024-12-29 13:30:02 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Trying to sort product by price low to high
+2024-12-29 13:30:02 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying the result
+Attempt 1: Caught StaleElementReferenceException. Reinitializing elements...
+2024-12-29 13:30:03 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Sorted by price low to high
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:29:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verify_addToWishlistRequiresLogin" classname="com.nagarro.ExitTest.Tests.Test_Product" time="3.568">
+    <system-out><![CDATA[2024-12-29 13:30:04 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Product
+2024-12-29 13:30:04 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:30:04 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:30:04 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:30:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:30:04 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:30:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:30:12 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: addToCart
+2024-12-29 13:30:12 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for product
+2024-12-29 13:30:15 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passes: addToWishlistRequiresLogin
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:30:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="addToCart" classname="com.nagarro.ExitTest.Tests.Test_Product" time="6.488">
+    <system-out><![CDATA[2024-12-29 13:30:16 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_Product
+2024-12-29 13:30:16 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:30:16 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:30:16 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:30:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:30:16 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:30:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:30:20 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test case: addToCart
+2024-12-29 13:30:20 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - searching for product
+2024-12-29 13:30:24 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to product page
+2024-12-29 13:30:27 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passes: Product added to cart
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:30:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="test_navigateToSellerDashboard" classname="com.nagarro.ExitTest.Tests.Test_SellerPage" time="9.66">
+    <system-out><![CDATA[2024-12-29 13:30:27 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_SellerPage
+2024-12-29 13:30:27 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:30:27 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:30:27 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:30:27 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:30:27 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:30:27 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:30:33 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Stating test case: navigateToSellerDashboard
+2024-12-29 13:30:33 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - navigating to seller page
+2024-12-29 13:30:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test pass :navigated to seller dashboard
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:30:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHelpTopics" classname="com.nagarro.ExitTest.Tests.Test_SupportPage" time="4.182">
+    <system-out><![CDATA[2024-12-29 13:30:43 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Setting up for test class: Test_SupportPage
+2024-12-29 13:30:43 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+2024-12-29 13:30:43 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=131 in cache (valid until 13:40:54 29/12/2024 IST)
+2024-12-29 13:30:43 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome131=131.0.6778.204 in cache (valid until 12:40:54 30/12/2024 IST)
+2024-12-29 13:30:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.204 (resolved driver for Chrome 131)
+2024-12-29 13:30:43 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 131.0.6778.204 found in cache
+2024-12-29 13:30:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhruvshingari\.cache\selenium\chromedriver\win64\131.0.6778.204\chromedriver.exe
+2024-12-29 13:30:50 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Starting test: VerifySupportPageTopics
+2024-12-29 13:30:50 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying support page is visible or not.
+2024-12-29 13:30:52 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Customer support button clicked
+2024-12-29 13:30:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Test case passed: Customer support page is visible
+2024-12-29 13:30:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying delivery topic is visible
+2024-12-29 13:30:53 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Help topic delivery related clicked
+2024-12-29 13:30:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Help topic delivery related is visible
+2024-12-29 13:30:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Verifying refund topic is visible
+2024-12-29 13:30:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Help topic refund related clicked
+2024-12-29 13:30:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Help topic refund related is visible
+2024-12-29 13:30:54 [main] INFO  c.nagarro.ExitTest.utility.BaseTest - Completed test: VerifySupportPageTopics
+]]></system-out>
+    <system-err><![CDATA[Dec 29, 2024 1:30:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
